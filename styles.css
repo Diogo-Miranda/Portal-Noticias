@@ -1,0 +1,39 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+#page-main-body {
+    margin-top: 3%;
+}
+
+/* Regras CSS Header - Inicio */
+
+#box-nav {
+    margin-top: 2%;
+}
+
+/* Regras CSS Header - Fim */
+
+/* Regras CSS Compoenente Noticia - Inicio */
+
+.jumbotron {
+    padding: 3%;
+}
+
+.jumbotron img {
+    float: left;
+}
+
+/* Regras CSS Compoenente Noticia - Fim */
+
+/* Regras CSS Aside - Inicio */
+
+@media screen and (max-width: 768px) {
+    #aside-categories {
+        display: none;
+    }
+}
+
+/* Regras CSS Aside - Fim */
