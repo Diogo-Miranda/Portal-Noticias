@@ -12,10 +12,9 @@ onload = () => {
 const executaPesquisa = () => {
     //Pegar a Query String Desejada
     let query = event.target.value;
-    console.log(`http://newsapi.org/v2/everything?coutry=br&q=${query}&apiKey=${API_KEY}`)
     //Fazer a requisitção com a query e a api key na api news
     let xhr = new XMLHttpRequest ();
-    xhr.open('GET', `http://newsapi.org/v2/everything?coutry=br&q=${query}&apiKey=${API_KEY}`);
+    xhr.open('GET', `https://newsapi.org/v2/everything?coutry=br&q=${query}&apiKey=${API_KEY}`);
     xhr.send();
 }
 
