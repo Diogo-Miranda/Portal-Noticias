@@ -1,1 +1,1 @@
-https://diogo-miranda.github.io/Portal-Noticias/
+https://diogo-miranda.github.io/Portal-Noticias/ 
