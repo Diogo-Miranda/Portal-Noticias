@@ -1,1 +1,2 @@
-https://diogo-miranda.github.io/Portal-Noticias/ 
+This aplication make call for News Api (https://newsapi.org/).
+Run on localhost
