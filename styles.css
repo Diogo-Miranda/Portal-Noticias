@@ -8,10 +8,23 @@
     margin-top: 3%;
 }
 
+#page-main-body > h1 {
+    padding-bottom: 10px;
+    color: rgb(235, 59, 59);  
+}
 /* Regras CSS Header - Inicio */
 
 #box-nav {
     margin-top: 2%;
+}
+
+#box-nav .logo{
+    max-width: 200px;
+}
+
+#box-nav nav > a{
+    color: rgb(36, 36, 241);
+    font-size: 2em;
 }
 
 /* Regras CSS Header - Fim */
@@ -24,14 +37,45 @@
 
 .jumbotron img {
     float: left;
+    max-width: 300px;
+    max-height: 150px;
+}
+
+.jumbotron p, a {
+    font-size: 16pt;
+}
+
+.jumbotron p {
+    padding-top: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 20pt;
+}
+
+.jumbotron h2 {
+    font-size: 12pt;
 }
 
 /* Regras CSS Compoenente Noticia - Fim */
 
 /* Regras CSS Aside - Inicio */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.5px) {
     #aside-categories {
+        display: none;
+    }
+
+    .box-button button{
+        
+        position: absolute;
+        top: 100px;
+        right: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .box-button {
         display: none;
     }
 }
